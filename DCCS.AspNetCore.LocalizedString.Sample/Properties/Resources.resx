@@ -117,7 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DCCS_AspNetCore_LocalizedString_Sample_Controllers_ValuesController_Error" xml:space="preserve">
+  <data name="DCCS_AspNetCore_LocalizedString_Sample_Controllers_SampleController_ErrorKey" xml:space="preserve">
     <value>This is an error</value>
+  </data>
+  <data name="DCCS_AspNetCore_LocalizedString_Sample_Controllers_SampleController_InformationKey" xml:space="preserve">
+    <value>This is a information</value>
   </data>
 </root>
