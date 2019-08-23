@@ -26,8 +26,8 @@ before_build:
 build_script:
 # if you want use a special version e.g. prerelease of the .NET Core SDK use the command line with the docker build, otherwise the plain dotnet build
 
-#- docker run -v $APPVEYOR_BUILD_FOLDER:/build --rm mcr.microsoft.com/dotnet/core/sdk:2.2 dotnet build /build/DCCS.AspNetCore.LocalizedException.FilterMiddleware -o /build/output
-- dotnet build DCCS.AspNetCore.LocalizedException.FilterMiddleware -o $APPVEYOR_BUILD_FOLDER/output
+#- docker run -v $APPVEYOR_BUILD_FOLDER:/build --rm mcr.microsoft.com/dotnet/core/sdk:2.2 dotnet build /build/DCCS.AspNetCore.LocalizedString -o /build/output
+- dotnet build DCCS.AspNetCore.LocalizedString -o $APPVEYOR_BUILD_FOLDER/output
 
 
 test:
