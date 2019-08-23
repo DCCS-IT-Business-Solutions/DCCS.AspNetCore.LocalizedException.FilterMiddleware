@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>DCCS GmbH</Authors>
+    <Copyright>© DCCS GmbH. All rights reserved.</Copyright>
+    <PackageProjectUrl>https://github.com/DCCS-IT-Business-Solutions/DCCS.AspNetCore.LocalizedString</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DCCS-IT-Business-Solutions/DCCS.AspNetCore.LocalizedString.git</RepositoryUrl>
+    <PackageTags>LocalizedString AspNetCore ExceptionFilter</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DCCS.LocalizedString.NetStandard" Version="1.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
