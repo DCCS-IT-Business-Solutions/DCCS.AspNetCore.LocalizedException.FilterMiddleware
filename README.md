@@ -34,7 +34,7 @@ For information about the usage the LocalizedException and LocalizedString take 
 
 ### Example
 
-A full working sample is included in the [source](https://github.com/DCCS-IT-Business-Solutions/DCCS.AspNetCore.LocalizedString.git)
+A full working sample is included in the [source](https://github.com/DCCS-IT-Business-Solutions/DCCS.AspNetCore.LocalizedString/tree/master/DCCS.AspNetCore.LocalizedString.Sample)
 
 ## Contributing
 All contributors are welcome to improve this project. The best way would be to start a bug or feature request and discuss the way you want find a solution with us.
