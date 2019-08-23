@@ -1,5 +1,5 @@
 # DCCS.AspNetCore.LocalizedString
-The DCCS.AspNetCore.LocalizedString provides a filter for ASP.NET Core application which converts LocalizedExceptions from the DCCS.LocalizedString.NetStandard package to http error 400 (bad request) with the error json formatted in the body and register.
+The DCCS.AspNetCore.LocalizedString provides a filter for ASP.NET Core application which converts LocalizedExceptions from the [DCCS.LocalizedString.NetStandard](https://github.com/DCCS-IT-Business-Solutions/DCCS.LocalizedString.NetStandard) package to http error 400 (bad request) with the error json formatted in the body and register.
 
 ## Installation
 
@@ -32,6 +32,9 @@ public void ConfigureServices(IServiceCollection services)
 
 For information about the usage the LocalizedException and LocalizedString take a look documentation of [DCCS.LocalizedString.NetStandard](https://github.com/DCCS-IT-Business-Solutions/DCCS.LocalizedString.NetStandard)
 
+### Example
+
+A full working sample is included in the [source](https://github.com/DCCS-IT-Business-Solutions/DCCS.AspNetCore.LocalizedString.git)
 
 ## Contributing
 All contributors are welcome to improve this project. The best way would be to start a bug or feature request and discuss the way you want find a solution with us.

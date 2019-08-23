@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "DCCS.AspNetCore.LocalizedString.Sample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "launchUrl": "http://localhost:19221/api/sample/information",
+      "applicationUrl": "http://localhost:19221"
+    }
+  }
+}
