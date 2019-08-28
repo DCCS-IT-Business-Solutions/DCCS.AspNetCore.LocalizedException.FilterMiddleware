@@ -28,6 +28,33 @@ public void ConfigureServices(IServiceCollection services)
 }
 ``` 
 
+Sample Usage:
+```csharp
+[ApiController]
+public class SampleController : ControllerBase
+{
+    private readonly ITranslationService _translationService;
+    public SampleController(ITranslationService translationService)
+    {
+        _translationService = translationService;
+    }
+    
+    static readonly LocalizedStringKey ErrorKey = new LocalizedStringKey("This is an error");
+    [HttpGet("error")]
+    public void Error()
+    {
+        throw new LocalizedException(_translationService.Create(ErrorKey));
+    }
+    
+    static readonly LocalizedStringKey InformationKey = new LocalizedStringKey("This is a information");
+    [HttpGet("information")]
+    public ILocalizedString Information()
+    {
+        return _translationService.Create(InformationKey);
+    }
+}
+```
+
 ### Usage of Localized String framework
 
 For information about the usage the LocalizedException and LocalizedString take a look documentation of [DCCS.LocalizedString.NetStandard](https://github.com/DCCS-IT-Business-Solutions/DCCS.LocalizedString.NetStandard)
